@@ -47,12 +47,10 @@ Transformo departamentos baseados em processos manuais em ecossistemas de dados 
 **1. MLOps em Auditoria Médica (CONAHP & JENPEX)**
 Desenvolvimento de modelo de classificação para auditar prontuários médicos automaticamente.
 - *Techs:* Python, Scikit-learn, MLOps.
-- [🔗 Ver Repositório](#)
 
 **2. Modernização de Pipeline ETL (Hospital Santa Rosa)**
 Migração de dados de planilhas Google Sheets para Data Warehouse no BigQuery com automação via Apps Script.
 - *Techs:* SQL, Google BigQuery, Apps Script.
-- [🔗 Ver Repositório](#)
 
 ### 📫 Contato
 
