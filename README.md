@@ -65,8 +65,8 @@ Migração de dados de planilhas Google Sheets para Data Warehouse no BigQuery c
 &nbsp;
 
 <div  align="center">
-<img width=55% align="left" height="180em" src="http://github-readme-stats.vercel.app/api?username=Cristo-salva&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img width=40% align="center" src="https://github-readme-stats-git-main-rafaelalexandrino.vercel.app/api/top-langs/?username=Cristo-salva&show_icons=true&theme=radical&layout=compact" />
+<img width=55% align="left" height="180em" src="http://github-readme-stats.vercel.app/api?username=ediney-magalhaes&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img width=40% align="center" src="https://github-readme-stats-git-main-rafaelalexandrino.vercel.app/api/top-langs/?username=ediney-magalhaes&show_icons=true&theme=radical&layout=compact" />
 </div>
 
 &nbsp;
