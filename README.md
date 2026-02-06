@@ -1,8 +1,8 @@
 # Olá, sou Ediney Magalhães! 👋
 
-Bem-vindo(a)! Sou **profissional de Dados** com background em **Estatística** e mais de **12 anos de experiência no setor de saúde**, atuando no desenvolvimento de soluções analíticas e de engenharia de dados aplicadas a problemas reais de negócio.
+Bem-vindo(a)! Sou **profissional de Dados** com background em **Estatística** e mais de **12 anos de experiência no setor de saúde**, atuando no desenvolvimento de pipelines de dados, soluções analíticas e arquitetura de dados aplicadas a problemas reais de negócio.
 
-Atualmente, trabalho na interseção entre **Engenharia de Dados**, **Health Analytics** e **Qualidade Hospitalar**, construindo pipelines de dados (ETL), estruturando ambientes *data-driven* **com foco em governança, qualidade da informação e confiabilidade dos dados em produção**, além do desenvolvimento de modelos de Machine Learning aplicados à auditoria médica e à tomada de decisão.
+Atualmente, trabalho na interseção entre **Engenharia de Dados**, **Health Analytics** e **Qualidade Hospitalar**, construindo pipelines de dados (ETL/ELT), estruturando ambientes *data-driven* **com foco em governança, qualidade da informação e confiabilidade dos dados em produção**, além do desenvolvimento de modelos de Machine Learning aplicados à auditoria médica e à tomada de decisão.
 
 ---
 
@@ -33,7 +33,7 @@ Transformo departamentos baseados em processos manuais em **ecossistemas de dado
   <img alt="Looker Studio" src="https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=google&logoColor=white">
 </p>
 
-### Outros
+### 🔧 Engenharia & Ferramentas
 <p>
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
   <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-4285F4?style=for-the-badge&logo=visual-studio-code&logoColor=white">
@@ -53,7 +53,7 @@ Desenvolvimento de modelo de classificação para **auditoria automática de pro
 ---
 
 ### 2️⃣ Modernização de Pipeline ETL Hospitalar (Hospital Santa Rosa)
-Projeto de **engenharia de dados** para migração de planilhas operacionais (Google Sheets) para um **Data Warehouse no Google BigQuery**, com automação de ingestão, padronização e validação de dados.
+Projeto de **engenharia de dados** para migração de planilhas operacionais (Google Sheets) para um **Data Warehouse no Google BigQuery**, automação de ingestão, padronização de schema, validação e consolidação de dados.
 
 - **Destaques:** redução de trabalho manual, aumento da confiabilidade dos dados e escalabilidade analítica.
 - **Techs:** SQL, Google BigQuery, Apps Script.
