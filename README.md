@@ -1,10 +1,15 @@
 # Olá, sou Ediney Magalhães! 👋
 
-Bem-vindo(a)! Sou **profissional de Dados** com formação em **Estatística** e mais de **12 anos de experiência profissional**, atuando na construção de soluções analíticas, engenharia de dados e suporte à tomada de decisão baseada em dados.
+Data & Analytics Engineer com formação em Estatística e mais de 12 anos de experiência estruturando ambientes analíticos com cenários reais de negócio.
 
-Minha atuação transita de forma integrada entre **Analytics Engineering, Data Engineering, Business Analytics e Data Science**, sempre com foco em **qualidade dos dados, governança, confiabilidade analítica e impacto real no negócio**.
+Experiência em arquitetura de dados em Cloud, pipelines ETL/ELT, modelagem analítica em camadas (Bronze, Prata e Ouro), governança orientada a testes e aplicação prática de Machine Learning.
 
-Atualmente, estou aprofundando meus estudos e práticas em **Analytics Engineering / Data Engineering**, sem deixar de atuar e me interessar por desafios em **Analytics, Estatística Aplicada e Ciência de Dados**, conforme a demanda do problema.
+Atuo na integração entre Engenharia de Dados, Analytics Engineering e Estatística Aplicada com foco em:
+- Confiabilidade e qualidade dos dados
+- Escalabilidade em ambientes Cloud
+- Governança e conformidade (LGPD)
+- Performance e otimização de custos (FinOps)
+- Automação analítica ponta a ponta
 
 ---
 
@@ -66,44 +71,57 @@ Transformo ambientes baseados em processos manuais e dados fragmentados em **eco
 ## 🏆 Projetos em Destaque
 
 ### 🏛️ Projeto Data Lake – Gestão de Pessoal (Governo Federal)
-Projeto de **engenharia analítica de dados** para estruturação de um Data Lake voltado à análise de **folha de pagamento, aposentadorias e diversidade no Executivo Federal**, desenvolvido como simulação prática para edital público.
+Arquitetura completa de Data Lake em Cloud (Medallion Architecture) para consolidação de bases públicas (SIAPE + ENAP), com foco em governança, escalabilidade e otimização de custos.
 
-**Arquitetura e Status**
-- **Fase 1 (Local):** Docker + PostgreSQL + Python ✅  
-  - Ingestão de dados (Camada Bronze)  
-  - Diagnóstico de qualidade, volumetria e riscos  
-- **Fase 2 (Cloud):** Google BigQuery + dbt 🚧  
-  - Tratamento analítico (Prata)  
-  - Camadas de métricas e consumo (Ouro)  
+- Ingestão automatizada multi-fontes (Python + BigQuery)
+- Processamento 100% in-memory (~5.9M registros)
+- Throughput medido em 15k linhas/segundo
+- Pseudonimização LGPS in-flight (SHA-256)
+- Camada Prata com testes automatizados via dbt
+- Estratégia incremental com particionamento e clusterização (FinOps)
 
-**Destaques**
-- Diagnóstico técnico detalhado de qualidade de dados  
-- Pipelines de ingestão automatizados  
-- Visão clara de governança, rastreabilidade e escalabilidade  
-
-**Techs:** Python, SQL Analítico, PostgreSQL, Docker, Google BigQuery, dbt  
+**Techs:** Python, SQL Analítico, Google BigQuery, dbt, Docker
 
 ---
 
-### 🏥 Modernização de Pipeline Analítico – Hospital Santa Rosa
-Projeto de modernização de dados corporativos, migrando processos manuais baseados em planilhas para um **Data Warehouse analítico em cloud**.
+### 🏥 Sistema Analítico Preditivo - Classificação Hospitalar
+Pipeline de Machine Learning para classificação automática das saídas hospitalares por Grupo Assistencial e Complexidade (SUS).
 
-- Automação de ingestão e transformação de dados  
-- Padronização de métricas e regras de negócio  
-- Dashboards integrados diretamente às camadas analíticas  
+- Automação de processos antes manual (~40 dias -> minutos)
+- Balanceamento de classes com SMOTE
+- Modelagem supervisionada com LightGBM
+- Modularização do pipeline (ingestion -> preprocessing -> model)
+- Integração com BigQuery para treinamento e histórico
 
-**Techs:** SQL, Google BigQuery, Looker Studio, Power BI  
+Acurácia:
+- COMPLEXIDADE_SUS: 96%
+- GRUPO_SUS: 95%
+  
+**Techs:** Python, Scikit-learn, LigthGBM, Google BigQuery
 
 ---
 
-### 📊 Ecossistema de Dashboards Corporativos
-Construção de painéis executivos para suporte à decisão estratégica, com foco em **consistência de indicadores, governança e confiabilidade analítica**.
+### 🏥 Modernização de Pipeline Analítico - Hospital Santa Rosa
+Centralização de resultados de auditorias (ROPs) antes distribuídos em múltiplas planilhas Google Sheets e dashboards isolados por hospital.
 
-- Dashboards integrados ao Data Warehouse  
-- Monitoramento de indicadores estratégicos  
-- Apoio direto à liderança e áreas operacionais  
+- Consolidação via View no Google BigQuery (UNION ALL)
+- Padronização de métricas entre hospitais
+- Criação de visão corporativa unificada no Looker Studio
+- Redução de inconsistências entre indicadores locais
 
-**Techs:** Looker Studio, Power BI, SQL  
+**Techs:** SQL, Google BigQuery, Looker Studio
+
+---
+
+### 🤖 Agente de Inteligência Assistencial (IA Generativa)
+Sistema automatizado para consolidação estatística e geração de relatórios técnicos com apoio de LLMs.
+
+- Consolidação automática de indicadores críticos
+- Geração de análises textuais estruturadas (NLP)
+- Redução do tempo de produção de relatórios (~30 dias -> minutos)
+- Integração com ambiente analítico em Cloud
+
+**Techs:** Python, NLP/LLMs, Streamlit, BigQuery
 
 ---
 
