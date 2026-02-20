@@ -15,28 +15,14 @@ Atuo na integração entre Engenharia de Dados, Analytics Engineering e Estatís
 
 ## 🚀 O que eu faço
 
-Transformo ambientes baseados em processos manuais e dados fragmentados em **ecossistemas analíticos confiáveis, escaláveis e orientados a métricas de negócio**.
+Desenho e implemento arquiteturas analíticas escaláveis em Cloud, transformando fontes heterogêneas e processos manuais em pipelines confiáveis, auditáveis e orientados a métricas.
 
-- 🧱 **Analytics & Data Engineering**  
-  - Construção de pipelines analíticos (ETL / ELT)  
-  - Modelagem de dados analíticos (camadas Bronze, Prata e Ouro)  
-  - Padronização de métricas e regras de negócio  
-  - Garantia de qualidade e consistência dos dados  
-
-- ☁️ **Cloud & Data Warehousing**  
-  - Estruturação de **Data Warehouses analíticos em Google BigQuery**  
-  - Migração de dados locais para ambientes cloud  
-  - Automação e escalabilidade de processos analíticos  
-
-- 📊 **Business Intelligence & Analytics**  
-  - Desenvolvimento de dashboards estratégicos (Looker Studio, Power BI)  
-  - Tradução de necessidades de negócio em indicadores confiáveis  
-  - Suporte direto à liderança e áreas usuárias  
-
-- 📐 **Estatística & Data Science Aplicada**  
-  - Análise exploratória e estatística aplicada  
-  - Modelagem preditiva e classificação  
-  - Uso de Python para análise, validação e automação  
+Atuo na construção de:
+- Pipelines ELT automatizados
+- Modelagem analítica em camadas (Bronze, Prata e Ouro)
+- Governança orientada a testes (dbt)
+- Otimização de performance e custos (FinOps)
+- Aplicações de Machine Learning e IA integradas ao ecossistema de dados
 
 ---
 
