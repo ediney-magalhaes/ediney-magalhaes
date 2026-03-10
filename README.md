@@ -1,121 +1,172 @@
-# Olá, sou Ediney Magalhães! 👋
+# Olá, sou Ediney Magalhães 👋
 
-Data & Analytics Engineer com formação em Estatística e mais de 12 anos de experiência estruturando ambientes analíticos com cenários reais de negócio.
+Data & Analytics Engineer com formação em Estatística e mais de **12 anos de experiência estruturando ambientes analíticos em cenários reais de negócio**.
 
-Experiência em arquitetura de dados em Cloud, pipelines ETL/ELT, modelagem analítica em camadas (Bronze, Prata e Ouro), governança orientada a testes e aplicação prática de Machine Learning.
+Especialista em **Arquitetura de Dados em Cloud, Engenharia de Dados, Analytics Engineering e Machine Learning aplicado**, atuando na construção de plataformas analíticas confiáveis, escaláveis e governadas.
 
-Atuo na integração entre Engenharia de Dados, Analytics Engineering e Estatística Aplicada com foco em:
-- Confiabilidade e qualidade dos dados
-- Escalabilidade em ambientes Cloud
-- Governança e conformidade (LGPD)
-- Performance e otimização de custos (FinOps)
-- Automação analítica ponta a ponta
+Atuação focada em:
 
----
-
-## 🚀 O que eu faço
-
-Desenho e implemento arquiteturas analíticas escaláveis em Cloud, transformando fontes heterogêneas e processos manuais em pipelines confiáveis, auditáveis e orientados a métricas.
-
-Atuo na construção de:
-- Pipelines ELT automatizados
-- Modelagem analítica em camadas (Bronze, Prata e Ouro)
-- Governança orientada a testes (dbt)
-- Otimização de performance e custos (FinOps)
-- Aplicações de Machine Learning e IA integradas ao ecossistema de dados
+• Engenharia de Dados e Data Platforms  
+• Arquiteturas analíticas em Cloud (Data Lake / Data Warehouse)  
+• Governança de dados e conformidade (LGPD)  
+• Otimização de performance e custos (FinOps)  
+• Machine Learning aplicado a problemas reais de negócio  
 
 ---
 
-## 🛠️ Tech Stack & Ferramentas
+# 🛠️ Tech Stack
 
-### 🧱 Data Engineering & Cloud
-<p>
-  <img alt="Google Cloud" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white">
-  <img alt="Google BigQuery" src="https://img.shields.io/badge/Google_BigQuery-669DF6?style=for-the-badge&logo=google-cloud&logoColor=white">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-</p>
+### Cloud & Data Platform
 
-### 📊 Analytics, BI & Data Science
-<p>
-  <img alt="SQL" src="https://img.shields.io/badge/SQL_Anal%C3%ADtico-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-  <img alt="Scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-  <img alt="Looker Studio" src="https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=google&logoColor=white">
-  <img alt="Power BI" src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
-</p>
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-### 🔧 Engenharia & Ferramentas
-<p>
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-4285F4?style=for-the-badge&logo=visual-studio-code&logoColor=white">
-</p>
+### Data Engineering
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
+![Polars](https://img.shields.io/badge/Polars-1F77B4?style=for-the-badge)
+
+### Analytics & Machine Learning
+
+![ScikitLearn](https://img.shields.io/badge/ScikitLearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=for-the-badge)
+
+### BI & Visualização
+
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Looker Studio](https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge)
 
 ---
 
-## 🏆 Projetos em Destaque
+# 🚀 Projetos em Destaque
 
-### 🏛️ Projeto Data Lake – Gestão de Pessoal (Governo Federal)
-Arquitetura completa de Data Lake em Cloud (Medallion Architecture) para consolidação de bases públicas (SIAPE + ENAP), com foco em governança, escalabilidade e otimização de custos.
+## 🏥 Plataforma Analítica de Auditoria de Prontuários
 
-- Ingestão automatizada multi-fontes (Python + BigQuery)
-- Processamento 100% in-memory (~5.9M registros)
-- Throughput medido em 15k linhas/segundo
-- Pseudonimização LGPS in-flight (SHA-256)
-- Camada Prata com testes automatizados via dbt
-- Estratégia incremental com particionamento e clusterização (FinOps)
+🔗 https://github.com/qualidadehsr-rgb/auditoria-de-prontuarios
 
-**Techs:** Python, SQL Analítico, Google BigQuery, dbt, Docker
+Ecossistema completo de auditoria hospitalar com **App Web + API + Data Warehouse + BI**.
 
----
+Arquitetura construída para resolver problemas de escalabilidade e concorrência em auditorias clínicas com mais de **600 itens por prontuário**.
 
-### 🏥 Sistema Analítico Preditivo - Classificação Hospitalar
-Pipeline de Machine Learning para classificação automática das saídas hospitalares por Grupo Assistencial e Complexidade (SUS).
+Principais componentes:
 
-- Automação de processos antes manual (~40 dias -> minutos)
-- Balanceamento de classes com SMOTE
-- Modelagem supervisionada com LightGBM
-- Modularização do pipeline (ingestion -> preprocessing -> model)
-- Integração com BigQuery para treinamento e histórico
+• API Node.js para ingestão near-real-time  
+• Pipeline ETL em Python + Polars  
+• Data Warehouse no BigQuery  
+• Modelagem **Entity-Attribute-Value (EAV)**  
+• Arquitetura **Medallion (Bronze / Silver / Gold)**  
+• CI/CD com GitHub Actions  
 
-Acurácia:
-- COMPLEXIDADE_SUS: 96%
-- GRUPO_SUS: 95%
-  
-**Techs:** Python, Scikit-learn, LigthGBM, Google BigQuery
+Impacto:
+
+• Processamento de mais de **100 mil registros históricos**  
+• Dashboards reduzidos de **~40s para <3s**  
+• Eliminação de perda de dados por concorrência  
 
 ---
 
-### 🏥 Modernização de Pipeline Analítico - Hospital Santa Rosa
-Centralização de resultados de auditorias (ROPs) antes distribuídos em múltiplas planilhas Google Sheets e dashboards isolados por hospital.
+## 🏛️ Data Lake Analytics — Governo Federal
 
-- Consolidação via View no Google BigQuery (UNION ALL)
-- Padronização de métricas entre hospitais
-- Criação de visão corporativa unificada no Looker Studio
-- Redução de inconsistências entre indicadores locais
+🔗 https://github.com/ediney-magalhaes/gov-datalake-analytics
 
-**Techs:** SQL, Google BigQuery, Looker Studio
+Arquitetura de **Data Lake em Cloud** para ingestão e governança de dados públicos do Governo Federal.
 
----
+Arquitetura baseada em **Modern Data Stack e Medallion Architecture**.
 
-### 🤖 Agente de Inteligência Assistencial (IA Generativa)
-Sistema automatizado para consolidação estatística e geração de relatórios técnicos com apoio de LLMs.
+Principais características:
 
-- Consolidação automática de indicadores críticos
-- Geração de análises textuais estruturadas (NLP)
-- Redução do tempo de produção de relatórios (~30 dias -> minutos)
-- Integração com ambiente analítico em Cloud
-
-**Techs:** Python, NLP/LLMs, Streamlit, BigQuery
+• Ingestão de APIs governamentais com **dlt**  
+• Processamento in-memory com **Polars**  
+• Armazenamento colunar **Parquet**  
+• Pseudonimização LGPD in-flight (SHA-256)  
+• Dual logging para observabilidade  
+• Registry Pattern para orquestração de pipelines  
 
 ---
 
-## 🎓 Formação Acadêmica
+## 🧠 Sistema Preditivo de Classificação Hospitalar
 
-- **Graduação em Estatística** – Universidade Federal de Mato Grosso (UFMT)  
-- **Graduação em Inteligência Artificial e Ciência de Dados** – IFMT *(cursando)*  
-- **Pós-graduação em Internet das Coisas (IoT)** – IFRO *(cursando)*  
+🔗 https://github.com/ediney-magalhaes/predicao-classificacao-hospitalar
+
+Pipeline de Machine Learning para classificação automática de internações hospitalares.
+
+O sistema classifica automaticamente:
+
+• Grupo Assistencial  
+• Complexidade SUS  
+
+Principais técnicas:
+
+• LightGBM  
+• Balanceamento de classes com SMOTE  
+• Feature engineering semântico baseado em **CID-10**  
+• Integração com BigQuery para histórico e treinamento  
+
+Impacto:
+
+Automação de processo manual de classificação hospitalar (**~40 dias → minutos**).
+
+---
+
+## 📊 Pipeline Analítico BigQuery — Auditoria Hospitalar
+
+🔗 https://github.com/ediney-magalhaes/bigquery-data-pipeline-auditoria
+
+Pipeline ELT para consolidação de auditorias hospitalares provenientes de múltiplas planilhas Google Sheets.
+
+Arquitetura:
+
+• External Tables no BigQuery  
+• Views consolidadas multi-tenant  
+• Padronização de schema e tipagem  
+• Tratamento de datas com Apps Script  
+
+Resultado:
+
+Visualização unificada de auditorias hospitalares no **Looker Studio**.
+
+---
+
+## 🤖 Agente de Inteligência Assistencial
+
+🔗 https://github.com/ediney-magalhaes/agente-inteligencia-assistencial
+
+Sistema baseado em **IA Generativa** para geração automática de relatórios analíticos hospitalares.
+
+Capacidades:
+
+• Consolidação automática de indicadores  
+• Geração de relatórios técnicos com LLMs  
+• Integração com ambiente analítico em Cloud  
+
+---
+
+## 🦟 Dengue MT — Sistema Preditivo de Surtos
+
+🔗 https://github.com/ediney-magalhaes/dengue-mt
+
+Projeto acadêmico para previsão de surtos de dengue utilizando:
+
+• Dados epidemiológicos  
+• Dados climáticos  
+• Sensoriamento remoto  
+• Modelos de Machine Learning  
+
+Objetivo:
+
+Antecipar surtos com **2–4 semanas de antecedência**.
+
+---
+
+# 🎓 Formação Acadêmica
+
+📊 Estatística — UFMT  
+
+🤖 Inteligência Artificial e Ciência de Dados — IFMT (cursando)  
+
+🌐 Pós-graduação em Internet das Coisas — IFRO (cursando)
 
 ---
 
