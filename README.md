@@ -1,6 +1,6 @@
 # Olá, sou Ediney Magalhães 👋
 
-Data & Analytics Engineer com formação em Estatística e mais de **12 anos de experiência estruturando ambientes analíticos em cenários reais de negócio**.
+Data & Analytics Engineer com formação em Estatística e mais de **10 anos de experiência estruturando ambientes analíticos em cenários reais de negócio**.
 
 Especialista em **Arquitetura de Dados em Cloud, Engenharia de Dados, Analytics Engineering e Machine Learning aplicado**, atuando na construção de plataformas analíticas confiáveis, escaláveis e governadas.
 
