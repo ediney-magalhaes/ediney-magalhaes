@@ -42,28 +42,26 @@ Atuação focada em:
 
 # 🚀 Projetos em Destaque
 
-## 🏥 Plataforma Analítica de Auditoria de Prontuários
+## 🏥 Plataforma Analítica Híbrida de Auditoria de Prontuários
 
 🔗 https://github.com/qualidadehsr-rgb/auditoria-de-prontuarios
 
-Ecossistema completo de auditoria hospitalar com **App Web + API + Data Warehouse + BI**.
+Ecossistema completo de auditoria hospitalar corporativa (**App Web + API + dbt + Data Warehouse + BI**) unificando dados legados em lote e novas submissões em tempo real.
 
-Arquitetura construída para resolver problemas de escalabilidade e concorrência em auditorias clínicas com mais de **600 itens por prontuário**.
+Arquitetura construída para resolver o *Wide Table Problem* (mais de **600 itens por prontuário**) e gargalos de concorrência que inviabilizavam a análise de dados na instituição.
 
-Principais componentes:
+**Principais Tecnologias e Componentes:**
+• **API Node.js:** Ingestão *near-real-time* via payload JSON dinâmico (Ingestão Pura).
+• **Pipeline Serverless:** Extração autônoma de dados legados via Python + GitHub Actions.
+• **Transformação com dbt:** Motor central de regras de negócio, qualidade de dados (Data Contracts) e unificação via **Surrogate Keys (MD5)**.
+• **Arquitetura Medallion:** Separação robusta no BigQuery (Bronze, Silver e Gold).
+• **Modelagem EAV (Entity-Attribute-Value):** Verticalização escalável via *Unpivot* dinâmico.
+• **Privacy by Design:** Mascaramento automatizado de dados sensíveis para conformidade **LGPD**.
 
-• API Node.js para ingestão near-real-time  
-• Pipeline ETL em Python + Polars  
-• Data Warehouse no BigQuery  
-• Modelagem **Entity-Attribute-Value (EAV)**  
-• Arquitetura **Medallion (Bronze / Silver / Gold)**  
-• CI/CD com GitHub Actions  
-
-Impacto:
-
-• Processamento de mais de **100 mil registros históricos**  
-• Dashboards reduzidos de **~40s para <3s**  
-• Eliminação de perda de dados por concorrência  
+**O Impacto no Negócio:**
+• **FinOps & Performance:** Transferência de cálculos analíticos do BI para o BigQuery, resultando em uma redução confirmada de **40%** no tempo de carregamento do dashboard (de 15,8s para 9,5s).
+• **Escalabilidade Histórica:** Processamento e padronização impecável de mais de **104.820 registros legados**.
+• **Single Source of Truth:** Eliminação total de perda de dados por concorrência simultânea.
 
 ---
 
