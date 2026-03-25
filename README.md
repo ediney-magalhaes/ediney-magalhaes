@@ -51,17 +51,17 @@ Ecossistema completo de auditoria hospitalar corporativa (**App Web + API + dbt 
 Arquitetura construída para resolver o *Wide Table Problem* (mais de **600 itens por prontuário**) e gargalos de concorrência que inviabilizavam a análise de dados na instituição.
 
 **Principais Tecnologias e Componentes:**
-• **API Node.js:** Ingestão *near-real-time* via payload JSON dinâmico (Ingestão Pura).
-• **Pipeline Serverless:** Extração autônoma de dados legados via Python + GitHub Actions.
-• **Transformação com dbt:** Motor central de regras de negócio, qualidade de dados (Data Contracts) e unificação via **Surrogate Keys (MD5)**.
-• **Arquitetura Medallion:** Separação robusta no BigQuery (Bronze, Silver e Gold).
-• **Modelagem EAV (Entity-Attribute-Value):** Verticalização escalável via *Unpivot* dinâmico.
-• **Privacy by Design:** Mascaramento automatizado de dados sensíveis para conformidade **LGPD**.
+* **API Node.js:** Ingestão *near-real-time* via payload JSON dinâmico (Ingestão Pura).
+* **Pipeline Serverless:** Extração autônoma de dados legados via Python + GitHub Actions.
+* **Transformação com dbt:** Motor central de regras de negócio, qualidade de dados (Data Contracts) e unificação via **Surrogate Keys (MD5)**.
+* **Arquitetura Medallion:** Separação robusta no BigQuery (Bronze, Silver e Gold).
+* **Modelagem EAV (Entity-Attribute-Value):** Verticalização escalável via *Unpivot* dinâmico.
+* **Privacy by Design:** Mascaramento automatizado de dados sensíveis para conformidade **LGPD**.
 
 **O Impacto no Negócio:**
-• **FinOps & Performance:** Transferência de cálculos analíticos do BI para o BigQuery, resultando em uma redução confirmada de **40%** no tempo de carregamento do dashboard (de 15,8s para 9,5s).
-• **Escalabilidade Histórica:** Processamento e padronização impecável de mais de **104.820 registros legados**.
-• **Single Source of Truth:** Eliminação total de perda de dados por concorrência simultânea.
+* **FinOps & Performance:** Transferência de cálculos analíticos do BI para o BigQuery, resultando em uma redução confirmada de **40%** no tempo de carregamento do dashboard (de 15,8s para 9,5s).
+* **Escalabilidade Histórica:** Processamento e padronização impecável de mais de **104.820 registros legados**.
+* **Single Source of Truth:** Eliminação total de perda de dados por concorrência simultânea.
 
 ---
 
