@@ -55,13 +55,13 @@ Atuação focada em:
 Projeto acadêmico (IFMT) de ponta a ponta, da ingestão de dados públicos ao modelo e ao dashboard em produção, para antecipar surtos de dengue em Cuiabá e Várzea Grande, com horizonte de 1 a 8 semanas.
 
 Modelo e validação
-• LightGBM com validação temporal (TimeSeriesSplit, 5 folds): R² de 0,741 ± 0,081 e erro médio de 9,7 casos por semana
-• Intervalos de predição (CQR) com cobertura empírica de 91,5% para o nível de 90%
-• Interpretabilidade com SHAP
+- LightGBM com validação temporal (TimeSeriesSplit, 5 folds): R² de 0,741 ± 0,081 e erro médio de 9,7 casos por semana
+- Intervalos de predição (CQR) com cobertura empírica de 91,5% para o nível de 90%
+- Interpretabilidade com SHAP
 
 Engenharia a serviço do modelo
-• 5 fontes públicas integradas (InfoDengue, NASA POWER, NOAA, MODIS e Google Trends) em arquitetura medalhão, com dbt e DuckDB
-• Rastreio de experimentos com MLflow, orquestração com Prefect e dashboard em Streamlit
+- 5 fontes públicas integradas (InfoDengue, NASA POWER, NOAA, MODIS e Google Trends) em arquitetura medalhão, com dbt e DuckDB
+- Rastreio de experimentos com MLflow, orquestração com Prefect e dashboard em Streamlit
 
 ---
 
@@ -72,16 +72,16 @@ Engenharia a serviço do modelo
 Sistema em produção que classifica internações hospitalares em Grupo Assistencial (clínico, cirúrgico, diagnóstico, OPME) e Complexidade (básica, média, alta), usado na elaboração de perfil e na auditoria. Substituiu a leitura manual de cerca de 900 prontuários por mês, que consumia cerca de 40 dias de trabalho, por um processamento em menos de 1 minuto, operado por uma assistente não técnica em interface web na rede do hospital.
 
 Modelo e evolução
-• LightGBM com SMOTE e variáveis derivadas da CID-10 (capítulo e grupo), treinado sobre mais de 110 mil registros (2012–2026)
-• Acurácia de cerca de 95–96% nos dois alvos
-• Evolução da v1 à v5: recall em alta complexidade de 56% para 89%; F1 do Grupo SUS de 0,63 para 0,87
-• Score de confiança por predição (abaixo de 70% é sinalizado para revisão) e regra de negócio que corrige automaticamente casos clínicos com cirurgia registrada
+- LightGBM com SMOTE e variáveis derivadas da CID-10 (capítulo e grupo), treinado sobre mais de 110 mil registros (2012–2026)
+- Acurácia de cerca de 95–96% nos dois alvos
+- Evolução da v1 à v5: recall em alta complexidade de 56% para 89%; F1 do Grupo SUS de 0,63 para 0,87
+- Score de confiança por predição (abaixo de 70% é sinalizado para revisão) e regra de negócio que corrige automaticamente casos clínicos com cirurgia registrada
 
 Engenharia e analytics
-• Validação dos dados de entrada com Pandera e ciclo de correção humana que realimenta o modelo
-• Camada analítica em dbt (staging, intermediate e marts de volume assistencial, taxa de correção e passagem por UTI), com dashboards de BI em construção
-• Anonimização SHA-256 com salt antes do envio à nuvem; os dados de internação não trafegam pela internet pública
-• Custo de infraestrutura de R$ 0 por mês; ADRs, model cards e runbooks documentados
+- Validação dos dados de entrada com Pandera e ciclo de correção humana que realimenta o modelo
+- Camada analítica em dbt (staging, intermediate e marts de volume assistencial, taxa de correção e passagem por UTI), com dashboards de BI em construção
+- Anonimização SHA-256 com salt antes do envio à nuvem; os dados de internação não trafegam pela internet pública
+- Custo de infraestrutura de R$ 0 por mês; ADRs, model cards e runbooks documentados
 
 ---
 
@@ -92,15 +92,15 @@ Engenharia e analytics
 Plataforma de ponta a ponta (app web, API, dbt, Data Warehouse e BI) que automatiza a auditoria clínica de prontuários de 9 unidades hospitalares e transforma as avaliações em indicadores de conformidade para a gestão.
 
 Analytics e impacto
-• Taxa de Conformidade (itens conformes sobre itens válidos) com cortes por unidade, setor, tipo de prontuário, especialidade, avaliador e período, em dashboards no Looker Studio
-• Dashboard 76% mais rápido (de 11,8 s para 2,8 s) e relatório consolidado de 24 para 5 páginas
-• Mais de 104 mil registros históricos unificados em uma única fonte da verdade
+- Taxa de Conformidade (itens conformes sobre itens válidos) com cortes por unidade, setor, tipo de prontuário, especialidade, avaliador e período, em dashboards no Looker Studio
+- Dashboard 76% mais rápido (de 11,8 s para 2,8 s) e relatório consolidado de 24 para 5 páginas
+- Mais de 104 mil registros históricos unificados em uma única fonte da verdade
 
 Engenharia
-• Ingestão em tempo quase real via API Node.js e carga histórica via Python e GitHub Actions
-• Arquitetura medalhão no BigQuery, com regras de negócio e qualidade de dados em dbt
-• Modelagem EAV com unpivot dinâmico para prontuários com mais de 600 itens
-• Mascaramento automático de dados sensíveis (LGPD) na camada final
+- Ingestão em tempo quase real via API Node.js e carga histórica via Python e GitHub Actions
+- Arquitetura medalhão no BigQuery, com regras de negócio e qualidade de dados em dbt
+- Modelagem EAV com unpivot dinâmico para prontuários com mais de 600 itens
+- Mascaramento automático de dados sensíveis (LGPD) na camada final
 
 ---
 
@@ -110,10 +110,10 @@ Engenharia
 
 Sistema que automatiza o relatório trimestral de segurança do paciente, antes consolidado manualmente em cerca de 30 dias e hoje gerado em menos de 1 dia.
 
-• Aplicação em Streamlit que processa 10 blocos analíticos, com gráficos e análises interpretativas geradas por LLM (Gemini API) sob demanda
-• Engenharia de prompt para transformar os indicadores calculados em texto de análise
-• Engenharia de software documentada: 17 ADRs, versionamento semântico com CHANGELOG, roadmap por fases e backlog
-• Em evolução: revisão estruturada em andamento. Planejados, por fases: testes automatizados, base histórica, painel epidemiológico, um agente com busca semântica e RAG sobre o histórico de notificações
+- Aplicação em Streamlit que processa 10 blocos analíticos, com gráficos e análises interpretativas geradas por LLM (Gemini API) sob demanda
+- Engenharia de prompt para transformar os indicadores calculados em texto de análise
+- Engenharia de software documentada: 17 ADRs, versionamento semântico com CHANGELOG, roadmap por fases e backlog
+- Em evolução: revisão estruturada em andamento. Planejados, por fases: testes automatizados, base histórica, painel epidemiológico, um agente com busca semântica e RAG sobre o histórico de notificações
 
 ---
 
@@ -124,15 +124,15 @@ Sistema que automatiza o relatório trimestral de segurança do paciente, antes 
 Projeto pessoal de plataforma analítica de ponta a ponta com dados públicos de pessoal do Executivo Federal (SIAPE, DEPRO e ENAP), estruturada para estudos de trajetória de carreira, remuneração, aposentadoria, competências e diversidade.
 
 Escala e engenharia
-• Mais de 276 milhões de registros ingeridos (2015 a 2026, 8 conjuntos de dados com 136 partições mensais cada), com 17,3 GB em Parquet particionado
-• Orquestração com Dagster e ingestão em memória com Polars, a cerca de 14 mil registros por segundo; Google Cloud Storage com particionamento Hive e BigQuery como Data Warehouse
-• Pseudonimização SHA-256 durante a ingestão (LGPD)
+- Mais de 276 milhões de registros ingeridos (2015 a 2026, 8 conjuntos de dados com 136 partições mensais cada), com 17,3 GB em Parquet particionado
+- Orquestração com Dagster e ingestão em memória com Polars, a cerca de 14 mil registros por segundo; Google Cloud Storage com particionamento Hive e BigQuery como Data Warehouse
+- Pseudonimização SHA-256 durante a ingestão (LGPD)
 
 Modelagem analítica (dbt)
-• Camada Silver concluída, com 8 modelos de staging e 48 testes de qualidade
-• Camada Gold em finalização: modelagem dimensional (Kimball) com 8 fatos e 7 dimensões; os maiores fatos têm de 76 a 97 milhões de linhas
-• Grão de cada fato validado em população completa, nunca por amostra, o que revelou duplicidades e colisões de identificador antes que chegassem às análises
-• Arquitetura medalhão documentada em ADRs, com termos de homologação por camada  
+- Camada Silver concluída, com 8 modelos de staging e 48 testes de qualidade
+- Camada Gold em finalização: modelagem dimensional (Kimball) com 8 fatos e 7 dimensões; os maiores fatos têm de 76 a 97 milhões de linhas
+- Grão de cada fato validado em população completa, nunca por amostra, o que revelou duplicidades e colisões de identificador antes que chegassem às análises
+- Arquitetura medalhão documentada em ADRs, com termos de homologação por camada  
 
 ---
 
@@ -142,10 +142,10 @@ Modelagem analítica (dbt)
 
 Pipeline ELT que consolida em um único painel as auditorias de conformidade de 5 unidades hospitalares, antes registradas em planilhas Google Sheets separadas.
 
-• External Tables no BigQuery lendo diretamente das planilhas de cada unidade
-• Views consolidadas multi-tenant, com padronização de schema e tipagem entre unidades
-• Tratamento de datas automatizado com Google Apps Script
-• Dashboard unificado no Looker Studio  
+- External Tables no BigQuery lendo diretamente das planilhas de cada unidade
+- Views consolidadas multi-tenant, com padronização de schema e tipagem entre unidades
+- Tratamento de datas automatizado com Google Apps Script
+- Dashboard unificado no Looker Studio  
 
 Resultado:
 
