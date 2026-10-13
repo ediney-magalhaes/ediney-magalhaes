@@ -5,11 +5,11 @@ Estatístico e cientista de dados com mais de 10 anos de experiência em dados. 
 Meu foco é transformar dados em decisão: previsão com validação rigorosa, indicadores confiáveis e comunicação clara com áreas não técnicas.
 
 Atuação focada em:
-• Ciência de dados: Machine Learning, previsão (séries temporais) e estatística aplicada
-• Analytics e BI: indicadores, dashboards e métricas de negócio (Power BI, Looker Studio)
-• Engenharia de dados aplicada: pipelines, Data Lake / Data Warehouse e MLOps em Cloud
-• Governança de dados e conformidade (LGPD)
-• Otimização de performance e custos (FinOps) 
+- Ciência de dados: Machine Learning, previsão (séries temporais) e estatística aplicada
+- Analytics e BI: indicadores, dashboards e métricas de negócio (Power BI, Looker Studio)
+- Engenharia de dados aplicada: pipelines, Data Lake / Data Warehouse e MLOps em Cloud
+- Governança de dados e conformidade (LGPD)
+- Otimização de performance e custos (FinOps) 
 
 ---
 
